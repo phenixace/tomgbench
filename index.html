@@ -4,27 +4,27 @@
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
-  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <meta name="description" content="S²-Bench: Speak-to-Structure (TOMG) — Evaluating LLMs in Open-domain Natural Language-Driven Molecule Generation">
+  <meta property="og:title" content="S²-Bench: Speak-to-Structure (TOMG) | Open-domain NL-Driven Molecule Generation"/>
+  <meta property="og:description" content="First benchmark to evaluate LLMs in open-domain natural language-driven molecule generation. MolEdit, MolOpt, MolCustom. OpenMolIns."/>
+  <meta property="og:url" content="https://phenixace.github.io/tomgbench/"/>
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image" content="static/images/your_banner_image.png" />
   <meta property="og:image:width" content="1200"/>
   <meta property="og:image:height" content="630"/>
 
 
-  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
-  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <meta name="twitter:title" content="S²-Bench: Speak-to-Structure (TOMG)">
+  <meta name="twitter:description" content="Evaluating LLMs in open-domain natural language-driven molecule generation. Leaderboard &amp; dataset.">
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
   <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
   <meta name="twitter:card" content="summary_large_image">
   <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="keywords" content="S²-Bench, Speak-to-Structure, molecule generation, LLM, OpenMolIns, MolEdit, MolOpt, MolCustom, benchmark">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>TOMG-Bench</title>
+  <title>S²-Bench: Speak-to-Structure (TOMG)</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -54,6 +54,15 @@
       font-size: 0.6em;
       color: #999999;
     }
+    .footer .appeal-note {
+      font-size: 0.55em;
+      color: #aaaaaa;
+      margin-top: 1em;
+      line-height: 1.4;
+    }
+    .footer .appeal-note a {
+      color: #999999;
+    }
   </style>
 </head>
 <body>
@@ -64,26 +73,22 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">TOMG-Bench: Evaluating LLMs on Text-based Open Molecule Generation</h1>
+            <h1 class="title is-1 publication-title">S²-Bench: Speak-to-Structure (TOMG)</h1>
+            <p class="subtitle is-4">Evaluating LLMs in Open-domain Natural Language-Driven Molecule Generation</p>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
-              <span class="author-block">
-                <a href="https://phenixace.github.io" target="_blank">Jiatong Li</a><sup>*</sup><sup>1</sup>,</span>
-                <span class="author-block">
-                  <a href="https://scholar.google.com/citations?user=U-b_eXkAAAAJ" target="_blank">Junxian Li</a><sup>*</sup><sup>2</sup>,</span>
-                  <span class="author-block">
-                    <a href="https://liuyunqing.github.io" target="_blank">Yunqing Liu</a><sup>1</sup>,</span>
-                  <span class="author-block">
-                    <a href="https://scholar.google.com/citations?user=Ox6SxpoAAAAJ" target="_blank">Dongzhan Zhou</a><sup>3</sup>,</span>
-                  <span class="author-block">
-                    <a href="https://www.polyu.edu.hk/en/comp/people/academic-staff/prof-li-qing/" target="_blank">Qing Li</a><sup>1</sup>
-                  </span>
-                  </div>
-
-                  <div class="is-size-5 publication-authors">
-                    <span class="author-block"><sup>1</sup>Hong Kong Polytechnic University, <sup>2</sup>Shanghai Jiao Tong University, <sup>3</sup>Shanghai AI Lab<br>UnderReview</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
+              <span class="author-block">Jiatong Li<sup>*</sup>,</span>
+              <span class="author-block">Junxian Li<sup>*</sup>,</span>
+              <span class="author-block">Weida Wang,</span>
+              <span class="author-block">Yunqing Liu,</span>
+              <span class="author-block">Changmeng Zheng,</span>
+              <span class="author-block">Xiaoyong Wei,</span>
+              <span class="author-block">Dongzhan Zhou,</span>
+              <span class="author-block">Qing Li</span>
+            </div>
+            <div class="is-size-5 publication-authors">
+              <span class="eql-cntrb"><small><sup>*</sup>Equal Contribution</small></span>
+            </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
@@ -111,7 +116,7 @@
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/phenixace/TOMG-Bench" target="_blank"
+                    <a href="https://github.com/phenixace/S2-TOMG-Bench" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -120,19 +125,9 @@
                   </a>
                 </span>
 
-                <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/2412.14642" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
                 <!-- Huggingface Dataset Link-->
                 <span class="link-block">
-                  <a href="https://huggingface.co/datasets/Duke-de-Artois/TOMG-Bench" target="_blank"
+                  <a href="https://huggingface.co/datasets/phenixace/S2-TOMG-Bench" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     &#x1F917;
@@ -158,9 +153,12 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-          In this paper, we propose Text-based Open Molecule Generation Benchmark (TOMG-Bench), the first benchmark to evaluate the open-domain molecule generation capability of LLMs. TOMG-Bench encompasses a dataset of three major tasks: molecule editing (MolEdit), molecule optimization (MolOpt), and customized molecule generation (MolCustom). Each task further contains three subtasks, with each subtask comprising 5,000 test samples. Given the inherent complexity of open molecule generation, we have also developed an automated evaluation system that helps measure both the quality and the accuracy of the generated molecules. Our comprehensive benchmarking of 25 LLMs reveals the current limitations and potential areas for improvement in text-guided molecule discovery. Furthermore, with the assistance of OpenMolIns, a specialized instruction tuning dataset proposed for solving challenges raised by TOMG-Bench, Llama3.1-8B could outperform all the open-source general LLMs, even surpassing GPT-3.5-turbo by 46.5% on TOMG-Bench.
+          Recently, Large Language Models (LLMs) have demonstrated great potential in natural language-driven molecule discovery. However, existing datasets and benchmarks for molecule-text alignment are predominantly built on one-to-one mappings, measuring LLMs' ability to retrieve a single, pre-defined answer, rather than their creative potential to generate diverse, yet equally valid, molecular candidates. To address this critical gap, we propose <strong>Speak-to-Structure (S²-Bench)</strong>, the first benchmark to evaluate LLMs in open-domain natural language-driven molecule generation. S²-Bench is specifically designed for one-to-many relationships, challenging LLMs to exhibit genuine molecular understanding and open-ended generation capabilities. Our benchmark includes three key tasks: molecule editing (<strong>MolEdit</strong>), molecule optimization (<strong>MolOpt</strong>), and customized molecule generation (<strong>MolCustom</strong>), each probing a different aspect of molecule discovery. We also introduce <strong>OpenMolIns</strong>, a large-scale instruction tuning dataset that enables Llama-3.1-8B to surpass the most powerful LLMs like GPT-4o and Claude-3.5 on S²-Bench. Our comprehensive evaluation of 30 LLMs shifts the focus from simple pattern recall to realistic molecular design, paving the way for more capable LLMs in natural language-driven molecule discovery.
           </p>
         </div>
+        <p class="content has-text-justified">
+          <strong>Dataset:</strong> Full benchmark <a href="https://huggingface.co/datasets/phenixace/S2-TOMG-Bench" target="_blank">phenixace/S2-TOMG-Bench</a> (45k samples); mini <a href="https://huggingface.co/datasets/phenixace/S2-TOMG-Bench-mini" target="_blank">phenixace/S2-TOMG-Bench-mini</a> (4.5k) for fast experimentation.
+        </p>
       </div>
     </div>
   </div>
@@ -180,189 +178,44 @@
             <tr>
               <th>Rank</th>
               <th>Model</th>
-              <th>#Parameters</th>
-              <th>A̅cc (%)</th>
-              <th>wA̅cc (%)</th>
+              <th>#Parameters (B)</th>
+              <th>SR (%)</th>
+              <th>WSR (%)</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>1</td>
-              <td>Claude-3.5</td>
-              <td>N/A</td>
-              <td>51.10</td>
-              <td>35.92</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Gemini-1.5-pro</td>
-              <td>N/A</td>
-              <td>52.25</td>
-              <td>34.80</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>GPT-4-turbo</td>
-              <td>N/A</td>
-              <td>50.74</td>
-              <td>34.23</td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>GPT-4o</td>
-              <td>N/A</td>
-              <td>49.08</td>
-              <td>32.29</td>
-            </tr>
-            <tr>
-              <td>5</td>
-              <td>Claude-3</td>
-              <td>N/A</td>
-              <td>46.14</td>
-              <td>30.47</td>
-            </tr>
-            <tr>
-              <td>6</td>
-              <td>OpenMolIns-large (Llama-3.1-8B)</td>
-              <td>8B</td>
-              <td>43.1</td>
-              <td>27.22</td>
-            </tr>
-            <tr>
-              <td>7</td>
-              <td>OpenMolIns-xlarge (Galactica-125M)</td>
-              <td>125M</td>
-              <td>44.48</td>
-              <td>25.73</td>
-            </tr>
-            <tr>
-              <td>8</td>
-              <td>Llama3-70B-Instruct (Int4)</td>
-              <td>70B</td>
-              <td>38.54</td>
-              <td>23.93</td>
-            </tr>
-            <tr>
-              <td>9</td>
-              <td>OpenMolIns-large (Galactica-125M)</td>
-              <td>125M</td>
-              <td>39.28</td>
-              <td>23.42</td>
-            </tr>
-            <tr>
-              <td>10</td>
-              <td>OpenMolIns-medium (Galactica-125M)</td>
-              <td>125M</td>
-              <td>34.54</td>
-              <td>19.89</td>
-            </tr>
-            <tr>
-              <td>11</td>
-              <td>GPT-3.5-turbo</td>
-              <td>N/A</td>
-              <td>28.93</td>
-              <td>18.58</td>
-            </tr>
-            <tr>
-              <td>12</td>
-              <td>OpenMolIns-small (Galactica-125M)</td>
-              <td>125M</td>
-              <td>24.17</td>
-              <td>15.18</td>
-            </tr>
-            <tr>
-              <td>13</td>
-              <td>Llama3.1-8B-Instruct</td>
-              <td>8B</td>
-              <td>26.26</td>
-              <td>14.09</td>
-            </tr>
-            <tr>
-              <td>14</td>
-              <td>Llama3-8B-Instruct</td>
-              <td>8B</td>
-              <td>26.40</td>
-              <td>13.75</td>
-            </tr>
-            <tr>
-              <td>15</td>
-              <td>chatglm-9B</td>
-              <td>9B</td>
-              <td>18.50</td>
-              <td>13.13(7)</td>
-            </tr>
-            <tr>
-              <td>16</td>
-              <td>OpenMolIns-light (Galactica-125M)</td>
-              <td>125M</td>
-              <td>20.95</td>
-              <td>13.13(6)</td>
-            </tr>
-            <tr>
-              <td>17</td>
-              <td>OpenMolIns-large (Llama3.2-1B)</td>
-              <td>1B</td>
-              <td>14.11</td>
-              <td>8.10</td>
-            </tr>
-            <tr>
-              <td>18</td>
-              <td>yi-1.5-9B</td>
-              <td>9B</td>
-              <td>14.10</td>
-              <td>7.32</td>
-            </tr>
-            <tr>
-              <td>19</td>
-              <td>Mistral-7B-Instruct-v0.2</td>
-              <td>7B</td>
-              <td>11.17</td>
-              <td>4.81</td>
-            </tr>
-            <tr>
-              <td>20</td>
-              <td>BioT5-base</td>
-              <td>250M</td>
-              <td>24.19</td>
-              <td>4.21</td>
-            </tr>
-            <tr>
-              <td>21</td>
-              <td>MolT5-large</td>
-              <td>780M</td>
-              <td>23.11</td>
-              <td>2.89</td>
-            </tr>
-            <tr>
-              <td>22</td>
-              <td>Llama-3.1-1B-Instruct</td>
-              <td>1B</td>
-              <td>3.95</td>
-              <td>1.99</td>
-            </tr>
-            <tr>
-              <td>23</td>
-              <td>MolT5-base</td>
-              <td>250M</td>
-              <td>11.11</td>
-              <td>1.30(0)</td>
-            </tr>
-            <tr>
-              <td>24</td>
-              <td>MolT5-small</td>
-              <td>80M</td>
-              <td>11.55</td>
-              <td>1.29(9)</td>
-            </tr>
-            <tr>
-              <td>25</td>
-              <td>Qwen2-7B-Instruct</td>
-              <td>7B</td>
-              <td>0.18</td>
-              <td>0.15</td>
-            </tr>
+            <tr><td>1</td><td>Llama3.1-8B (OpenMolIns-xlarge)</td><td>8</td><td>58.79</td><td>39.33</td></tr>
+            <tr><td>2</td><td>Claude-3.5</td><td>—</td><td>51.10</td><td>35.92</td></tr>
+            <tr><td>3</td><td>Gemini-1.5-pro</td><td>—</td><td>52.25</td><td>34.80</td></tr>
+            <tr><td>4</td><td>GPT-4-turbo</td><td>—</td><td>50.74</td><td>34.23</td></tr>
+            <tr><td>5</td><td>GPT-4o</td><td>—</td><td>49.08</td><td>32.29</td></tr>
+            <tr><td>6</td><td>Claude-3</td><td>—</td><td>46.14</td><td>30.47</td></tr>
+            <tr><td>7</td><td>Llama3.1-8B (OpenMolIns-large)</td><td>8</td><td>43.1</td><td>27.22</td></tr>
+            <tr><td>8</td><td>Galactica-125M (OpenMolIns-xlarge)</td><td>0.125</td><td>44.48</td><td>25.73</td></tr>
+            <tr><td>9</td><td>Llama3-70B-Instruct (Int4)</td><td>70</td><td>38.54</td><td>23.93</td></tr>
+            <tr><td>10</td><td>Galactica-125M (OpenMolIns-large)</td><td>0.125</td><td>39.28</td><td>23.42</td></tr>
+            <tr><td>11</td><td>Galactica-125M (OpenMolIns-medium)</td><td>0.125</td><td>34.54</td><td>19.89</td></tr>
+            <tr><td>12</td><td>GPT-3.5-turbo</td><td>—</td><td>28.93</td><td>18.58</td></tr>
+            <tr><td>13</td><td>Galactica-125M (OpenMolIns-small)</td><td>0.125</td><td>24.17</td><td>15.18</td></tr>
+            <tr><td>14</td><td>Gemma3-12B</td><td>12</td><td>26.28</td><td>15.00</td></tr>
+            <tr><td>15</td><td>Deepseek-R1-distill-Qwen-7B</td><td>7</td><td>25.07</td><td>14.61</td></tr>
+            <tr><td>16</td><td>Llama3.1-8B-Instruct</td><td>8</td><td>26.26</td><td>14.09</td></tr>
+            <tr><td>17</td><td>Llama3-8B-Instruct</td><td>8</td><td>26.40</td><td>13.75</td></tr>
+            <tr><td>18</td><td>chatglm-9B</td><td>9</td><td>18.50</td><td>13.13(7)</td></tr>
+            <tr><td>19</td><td>Galactica-125M (OpenMolIns-light)</td><td>0.125</td><td>20.95</td><td>13.13(6)</td></tr>
+            <tr><td>20</td><td>ChemDFM-v1.5-8B</td><td>8</td><td>18.24</td><td>12.07</td></tr>
+            <tr><td>21</td><td>ChemLLM-20B</td><td>20</td><td>16.23</td><td>9.76</td></tr>
+            <tr><td>22</td><td>Llama3.2-1B (OpenMolIns-large)</td><td>1</td><td>14.11</td><td>8.10</td></tr>
+            <tr><td>23</td><td>yi-1.5-9B</td><td>9</td><td>14.10</td><td>7.32</td></tr>
+            <tr><td>24</td><td>Mistral-7B-Instruct-v0.2</td><td>7</td><td>11.17</td><td>4.81</td></tr>
+            <tr><td>25</td><td>BioT5-base</td><td>0.25</td><td>24.19</td><td>4.21</td></tr>
+            <tr><td>26</td><td>MolT5-large</td><td>0.78</td><td>23.11</td><td>2.89</td></tr>
+            <tr><td>27</td><td>Llama3.1-1B-Instruct</td><td>1</td><td>3.95</td><td>1.99</td></tr>
+            <tr><td>28</td><td>MolT5-base</td><td>0.25</td><td>11.11</td><td>1.30(0)</td></tr>
+            <tr><td>29</td><td>MolT5-small</td><td>0.08</td><td>11.55</td><td>1.29(9)</td></tr>
+            <tr><td>30</td><td>Qwen2-7B-Instruct</td><td>7</td><td>0.18</td><td>0.15</td></tr>
           </tbody>
-        </table> 
+        </table>
       </div>
       </div>
     </div>
@@ -385,19 +238,24 @@
 <!--End paper poster -->
 
 
+<!-- Submit -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop content">
+      <h2 class="title is-4">Submit Your Model</h2>
+      <p>If your model achieves strong performance on the benchmark and you want to update the leaderboard, please send your results (including raw prediction files) via the contact given on the project page. We will verify and update the leaderboard accordingly.</p>
+    </div>
+  </section>
+
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>@misc{li2024tomgbenchevaluatingllmstextbased,
-        title={TOMG-Bench: Evaluating LLMs on Text-based Open Molecule Generation}, 
-        author={Jiatong Li and Junxian Li and Yunqing Liu and Dongzhan Zhou and Qing Li},
-        year={2024},
-        eprint={2412.14642},
-        archivePrefix={arXiv},
-        primaryClass={cs.CL},
-        url={https://arxiv.org/abs/2412.14642}, 
-  }</code></pre>
+      <pre><code>@article{li2024speak,
+  title={Speak-to-Structure: Evaluating LLMs in Open-domain Natural Language-Driven Molecule Generation},
+  author={Li, Jiatong and Li, Junxian and Liu, Yunqing and Zheng, Changmeng and Wei, Xiaoyong and Zhou, Dongzhan and Li, Qing},
+  journal={arXiv preprint arXiv:2412.14642v3},
+  year={2024}
+}</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
@@ -413,6 +271,9 @@
             This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
             This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p class="appeal-note">
+            Our previous submission to ICLR 2026 (ID&nbsp;4020) was unfortunately rejected. We believe one reviewer's review contained factual errors and emotional language—wrongly equating our work with unrelated prior work (<a href="https://link.springer.com/article/10.1186/s12915-025-02200-3" target="_blank" rel="noopener">BMC Biology 2025</a>)—and we were not given adequate opportunity to respond. We respectfully disagree with that assessment and record our position here.
           </p>
 
         </div>
